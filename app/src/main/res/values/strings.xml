@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">JewelleryAuctionHouse</string>
+    <string name="title_activity_admin_dashboard">AdminDashboardActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">My Account</string>
+    <string name="title_notifications">Bidded Products</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".AboutUsActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="24dp"
+        android:text="Jewellery Auction House"
+        android:textColor="#fff"
+
+        android:textSize="50sp" />
+
+    <TextView
+        android:textColor="@color/colorlogin"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jewellery Auction House is an online platform where users can add their antique jewelleries for auction for good price. Virtual auctions facilitate online activities between buyers and sellers in different locations or geographical areas. Various auction sites provide users with platforms powered by different types of auction software."
+        />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:textColor="@color/colorlogin"
+    android:text="Online auctions mirror traditional auctions and usually involve multiple bidder participation. In both scenarios, bidders and sellers buy and sell tangible and intangible products and services. Starting bids are low but increase at steady rates to meet market demand and item popularity. The time span of an online auction ranges from one to 10 days for items offered 24/7 worldwide."
+    />
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorlogin"
+        android:layout_height="wrap_content"
+        android:text="Contact Person: Suraj Vaidya"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorlogin"
+        android:layout_height="wrap_content"
+        android:text="Contact No: 9849598503"
+        />
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorlogin"
+        android:layout_height="wrap_content"
+        android:text="Location: Chabahil, Kathmandu"
+        />
+</LinearLayout>
