@@ -17,9 +17,9 @@ public class Login_Test {
     public ActivityTestRule<LoginActivity> activityTestRule = new ActivityTestRule<>(LoginActivity.class );
     @Test
     public void loginTest(){
-        onView(withId(R.id.etLogEmail)).perform(typeText( "sajik.shrestha@gmail.com" ));
+        onView(withId(R.id.etLogEmail)).perform(typeText( "surajvdya@gmail.com" ));
         closeSoftKeyboard();
-        onView( withId( R.id.etLogPassword) ).perform(typeText("greenmamba"),closeSoftKeyboard());
+        onView( withId( R.id.etLogPassword) ).perform(typeText("cali4nia"),closeSoftKeyboard());
 
         onView( withId( R.id.btnLogin ) ).perform( click() );
 

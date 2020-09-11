@@ -32,8 +32,8 @@ public class UpdateProfile_Test {
         onView(withId(R.id.navigation_dashboard)).perform(click());
 
         onView(withId(R.id.btnupdateaccount)).perform(click());
-        onView(withId(R.id.etuptfirst)).perform(typeText("sajik"),closeSoftKeyboard());
-        onView(withId(R.id.etuptsecond)).perform(typeText("shrestha"),closeSoftKeyboard());
+        onView(withId(R.id.etuptfirst)).perform(typeText("suraj"),closeSoftKeyboard());
+        onView(withId(R.id.etuptsecond)).perform(typeText("vaidya"),closeSoftKeyboard());
         onView(withId(R.id.btnUpdate)).perform(click());
 
     }
@@ -42,7 +42,7 @@ public class UpdateProfile_Test {
     public void map(){
         onView(withId(R.id.navigation_notifications))
                 .perform(swipeLeft());
-        onView(withId(R.id.etCity)).perform(typeText("gokarna"),closeSoftKeyboard());
+        onView(withId(R.id.etCity)).perform(typeText("kathmandu"),closeSoftKeyboard());
         onView(withId(R.id.btnSearch)).perform(click());
     }
 }

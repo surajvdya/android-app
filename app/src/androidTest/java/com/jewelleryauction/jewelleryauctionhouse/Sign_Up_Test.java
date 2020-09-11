@@ -16,16 +16,16 @@ public class Sign_Up_Test {
     public ActivityTestRule<RegisterActivity> activityTestRule = new ActivityTestRule<>( RegisterActivity.class );
     @Test
     public void testSignUp(){
-        onView(withId(R.id.first_name)).perform(typeText( "rohit" ));
+        onView(withId(R.id.first_name)).perform(typeText( "suraj" ));
         closeSoftKeyboard();
-        onView(withId(R.id.last_name)).perform(typeText( "shrestha" ));
+        onView(withId(R.id.last_name)).perform(typeText( "vaidya" ));
         closeSoftKeyboard();
-        onView(withId(R.id.signup_email)).perform(typeText( "rohit@gmail.com" ));
+        onView(withId(R.id.signup_email)).perform(typeText( "suraj@gmail.com" ));
         closeSoftKeyboard();
 
-        onView( withId( R.id.signpassword) ).perform(typeText("rohit"),closeSoftKeyboard());
+        onView( withId( R.id.signpassword) ).perform(typeText("suraj"),closeSoftKeyboard());
 
-        onView( withId( R.id.signrepassword) ).perform(typeText("rohit"), closeSoftKeyboard());
+        onView( withId( R.id.signrepassword) ).perform(typeText("suraj"), closeSoftKeyboard());
         onView(withId(R.id.rdogender)).perform(click());
 
 
