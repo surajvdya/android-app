@@ -51,8 +51,10 @@ public class HomeFragment extends Fragment {
 //                Toast.makeText(getContext(), ""+productsData.size(), Toast.LENGTH_SHORT).show();
 
                 ProductListApt productListApt=new ProductListApt(getContext(),productsData);
+                recyclerView.setLayoutManager(new StaggeredGridLayoutManager(2,StaggeredLayoutManager.VERTICAL));
                 recyclerView.setAdapter(productListApt);
-                recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+                //recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+                
             }
 
             @Override
